@@ -14,29 +14,29 @@ To install the implementation on your local device follow these steps.
 
 First clone the repository into your local directory
 
-
+```
 git clone git@gitlab.com:username/thesis.git
-
+```
 
 Switch into the directory to execute the script.
 
-
+```
 cd thesis/code
-
+```
 
 Create a virtual environment and start it.
 
-
+```
 python -m venv .venv
 source .venv/bin/activate  # Linux/Mac
 .venv\Scripts\activate   # Windows
-
+```
 
 Install the necessary dependencies from the requirements.txt file
 
-
+```
 pip install -r requirements.txt
-
+```
 
 ## Usage
 
